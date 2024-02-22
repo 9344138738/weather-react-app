@@ -1,4 +1,4 @@
-// import { data } from "autoprefixer"
+import { data } from "autoprefixer"
 import axios from "axios"
 import { useState } from "react"
 function App() {
@@ -25,8 +25,8 @@ weather.then(function(dalta){
     return <div className="flex flew-row justify-center h-[100vh] items-center" >
         <div style={{ backgroundImage: "linear-gradient(120deg, #a6c0fe 0%, #f68084 100%)" }} className="p-2 rounded-md
  shadow">
-            <h2 className="font-medium">Hey !🌦️</h2>
-            <p className="text-xs">Do you want to know the weather report;</p>
+            <h2 className="font-medium">Hey Suresh !🌦️</h2>
+            <p className="text-xs">Do you want to know the weather report; Ask me your location</p>
             <input onChange={handleinput} type="text"
                 className="rounded-m2 h-6 text-sm mt-2 p-1 outline-none" placeholder="City Name?" ></input><br />
             <button onClick={getdata} className="bg-black text-white rounded-lg p-2 text-xs mt-2">💭Get Report⛱️</button>
